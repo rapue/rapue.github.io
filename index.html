@@ -1,2 +1,153 @@
 <link rel="stylesheet" type="text/css" href="./style.css">
-<h1>HELLO WORLD!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ufuoma Erhekpaine | CS Resume</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="resume-container">
+
+  <!-- ========== HEADER ========== -->
+  <header class="header">
+    <div class="header-top">
+      <div class="name-title">
+        <h1>Ufuoma Erhekpaine</h1>
+        <div class="subhead">Computer Science Diploma Graduate</div>
+        <div style="margin-top: 0.4rem;">
+          <span class="pgwp-badge">✅ Valid PGWP – No Sponsorship Required</span>
+        </div>
+      </div>
+      <div class="contact-info">
+        Halifax, NS<br />
+        📞 306-510-1790<br />
+        ✉️ <a href="mailto:uerhekpaine@gmail.com">uerhekpaine@gmail.com</a><br />
+        <span class="github-link">🐙 <a href="https://rapue.github.io/" target="_blank">rapue.github.io</a></span>
+        <span style="font-size:0.8rem; color:#94a3b8; display:block; margin-top:0.1rem;">(Portfolio &amp; project code)</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== PROFILE ========== -->
+  <section class="section">
+    <h2 class="section-title">Profile</h2>
+    <p class="profile-text">
+      Recent Computer Science diploma graduate with hands-on experience developing full-stack web applications using PHP, MySQL, and JavaScript.
+      Self-motivated learner skilled in C++, Python, and Git. Holder of a valid Post-Graduation Work Permit (PGWP) – no sponsorship required.
+      Seeking an entry-level junior developer role in the Halifax-Dartmouth area.
+    </p>
+  </section>
+
+  <!-- ========== TECHNICAL SKILLS ========== -->
+  <section class="section">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-item"><strong>Languages:</strong> C++, Python, JavaScript, HTML, CSS, MySQL</div>
+      <div class="skill-item"><strong>Frameworks/Tools:</strong> React, Node.js, Git, VS Code</div>
+      <div class="skill-item"><strong>Other:</strong> Basic REST APIs, database design, debugging</div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="section">
+    <h2 class="section-title">Projects</h2>
+
+    <!-- Project 1: Q&A Site -->
+    <div class="project">
+      <div class="project-header">
+        <span class="project-title">Question and Answer Site</span>
+        <span class="project-role">Team Lead / Backend Developer</span>
+      </div>
+      <div class="project-tech">HTML · CSS · JavaScript · PHP · MySQL · 2024</div>
+      <div class="project-live-demo">
+        🔗 Live Demo: <span>Coming Soon</span> &nbsp;|&nbsp; 
+        <a href="#" style="color:#4f46e5; text-decoration:none; border-bottom:1px solid #c7d2fe;">View on GitHub →</a>
+        <!-- Replace the '#' above with your actual GitHub repo URL -->
+        <!-- e.g., <a href="https://github.com/rapue/qa-site" target="_blank">View on GitHub →</a> -->
+      </div>
+      <ul>
+        <li>Designed a normalized 4-page MySQL database schema to eliminate redundant data across users, questions, and answers, and implemented ongoing maintenance updates to the schema as feature requirements evolved.</li>
+        <li>Built secure user authentication using PHP session management to differentiate between logged-in and guest users, dynamically altering homepage content and UI elements based on login status.</li>
+        <li>Engineered complex MySQL relational queries (using JOINs and foreign keys) to efficiently insert new answers and retrieve all responses specifically linked to their parent question, ensuring accurate data mapping.</li>
+        <li>Developed real-time dynamic page updates by writing PHP backend logic that automatically refreshes question detail pages with newly submitted answers without requiring a full manual page reload.</li>
+      </ul>
+    </div>
+
+    <!-- Project 2: Budget Tracker -->
+    <div class="project">
+      <div class="project-header">
+        <span class="project-title">Budget Tracker</span>
+        <span class="project-role">Backend Developer</span>
+      </div>
+      <div class="project-tech">HTML · CSS · JavaScript · PHP · MySQL · 2025</div>
+      <div class="project-live-demo">
+        🔗 Live Demo: <span>Coming Soon</span> &nbsp;|&nbsp; 
+        <a href="#" style="color:#4f46e5; text-decoration:none; border-bottom:1px solid #c7d2fe;">View on GitHub →</a>
+        <!-- Replace the '#' above with your actual GitHub repo URL -->
+      </div>
+      <ul>
+        <li>Designed and implemented a secure MySQL database to store sensitive user profiles and financial entries, including input sanitization to prevent SQL injection vulnerabilities.</li>
+        <li>Wrote backend PHP CRUD operations (Create, Read, Update, Delete) to allow users to add, edit, and remove budget items, with real-time calculation of total spending and remaining balances.</li>
+        <li>Conducted rigorous manual and unit testing on all PHP backend operations and UI pages to verify data correctness, edge-case handling, and seamless frontend-backend integration.</li>
+      </ul>
+    </div>
+
+    <!-- Project 3: Workout Creator -->
+    <div class="project">
+      <div class="project-header">
+        <span class="project-title">Workout Creator</span>
+        <span class="project-role">Fullstack Developer</span>
+      </div>
+      <div class="project-tech">Python · React · MySQL · HTML · CSS · JavaScript · 2026</div>
+      <div class="project-live-demo">
+        🔗 Live Demo: <span>Coming Soon</span> &nbsp;|&nbsp; 
+        <a href="#" style="color:#4f46e5; text-decoration:none; border-bottom:1px solid #c7d2fe;">View on GitHub →</a>
+        <!-- Replace the '#' above with your actual GitHub repo URL -->
+      </div>
+      <ul>
+        <li>Currently architecting a dynamic workout generation tool using Python and React, based on kinesiology principles (KHS 165), to allow users to filter exercises by muscle group and difficulty.</li>
+        <li>Designing a MySQL database schema to store exercise data, user preferences, and workout history for personalized recommendations.</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- ========== EDUCATION ========== -->
+  <section class="section">
+    <h2 class="section-title">Education</h2>
+    <div class="edu-item">
+      <strong>Diploma in Computer Science</strong> – University of Regina, Regina <span class="year">| 2026</span>
+    </div>
+    <div style="font-size:0.95rem; color:#475569; margin-top:0.2rem;">
+      <strong>Key coursework:</strong> Programming Fundamentals (C++), Web Development, Databases, Object-Oriented Programming (C++, Python, Java).
+    </div>
+  </section>
+
+  <!-- ========== CERTIFICATIONS ========== -->
+  <section class="section">
+    <h2 class="section-title">Certifications</h2>
+    <ul class="cert-list">
+      <li>Cisco Certified Support Technician (CCST) Networking <span class="in-progress">in progress</span></li>
+      <li>Cisco Certified Support Technician (CCST) Cybersecurity <span class="in-progress">in progress</span></li>
+    </ul>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    &copy; 2026 Ufuoma Erhekpaine &bull; Built with HTML &amp; CSS &bull; Halifax, NS
+  </footer>
+
+</div>
+
+</body>
+</html>
